@@ -1,25 +1,20 @@
-# Customer-Churn-Prediction-using-Logistic-Regression
 # Customer Churn Prediction Using Logistic Regression
 
 ## Project Overview
 
 Customer retention is one of the most important challenges faced by subscription-based businesses. Acquiring new customers is often more expensive than retaining existing ones, making customer churn analysis a valuable business activity.
 
-This project develops a **Logistic Regression** machine learning model to predict whether a customer is likely to leave a telecommunications company. Using the Telco Customer Churn dataset, the project follows a complete machine learning workflow, including data preprocessing, exploratory data analysis (EDA), feature engineering, model training, and performance evaluation.
+This project develops a Logistic Regression machine learning model to predict whether a customer is likely to leave a telecommunications company. Using the Telco Customer Churn dataset, the project follows a complete machine learning workflow, including data preprocessing, exploratory data analysis (EDA), feature engineering, model training, and performance evaluation.
 
 The project demonstrates how machine learning can support proactive customer retention strategies by identifying customers who are at a high risk of churning.
 
----
-
-# Business Problem
+## Business Problem
 
 Customer churn directly impacts revenue, profitability, and long-term business growth. Without understanding why customers leave, companies struggle to design effective retention strategies.
 
 The objective of this project is to analyse customer characteristics and service usage patterns to identify factors associated with churn and build a predictive model that can estimate the likelihood of a customer leaving the company.
 
----
-
-# Objectives
+## Objectives
 
 The objectives of this project are to:
 
@@ -32,22 +27,22 @@ The objectives of this project are to:
 * Identify the most influential factors contributing to customer churn.
 * Provide business recommendations that support customer retention.
 
----
+## Dataset Overview
 
-# Dataset Overview
+Dataset: Telco Customer Churn Dataset
 
-**Dataset:** Telco Customer Churn Dataset
-
-**Source:** Kaggle
+Source: Kaggle
 
 The dataset contains information about telecommunications customers, including demographic information, subscribed services, billing information, contract details, and customer churn status.
 
 ### Dataset Summary
 
-* Number of observations: **7,043**
-* Number of features: **21**
-* Prediction target: **Churn**
-* Problem type: **Binary Classification**
+| **Attribute**          | **Description**       |
+| ---------------------- | --------------------- |
+| Number of observations | 7,043                 |
+| Number of features     | 21                    |
+| Prediction target      | Churn                 |
+| Problem type           | Binary Classification |
 
 Example variables include:
 
@@ -63,9 +58,7 @@ Example variables include:
 * Total Charges
 * Churn
 
----
-
-# Project Workflow
+## Project Workflow
 
 The project follows a complete end-to-end machine learning pipeline:
 
@@ -82,11 +75,9 @@ The project follows a complete end-to-end machine learning pipeline:
 11. Model Interpretation
 12. Business Insights and Recommendations
 
----
+## Tools & Technologies
 
-# Tools & Technologies
-
-| Category                | Tools               |
+| **Category**            | **Tools**           |
 | ----------------------- | ------------------- |
 | Programming Language    | Python              |
 | Data Manipulation       | Pandas, NumPy       |
@@ -95,9 +86,7 @@ The project follows a complete end-to-end machine learning pipeline:
 | Development Environment | Google Colab        |
 | Version Control         | Git & GitHub        |
 
----
-
-# Images Preview
+## Images Preview
 
 The project includes several visualisations created during exploratory data analysis, including:
 
@@ -110,11 +99,9 @@ The project includes several visualisations created during exploratory data anal
 * Feature Relationships
 * Model Evaluation Visualisations (Confusion Matrix and ROC Curve)
 
-> Screenshots of these visualisations will be added once the project analysis is completed.
+Screenshots of these visualisations will be added once the project analysis is completed.
 
----
-
-# Quick Results / Highlights
+## Quick Results / Highlights
 
 The project aims to uncover key patterns associated with customer churn and evaluate the effectiveness of Logistic Regression as a predictive model.
 
@@ -125,9 +112,7 @@ Some of the expected outcomes include:
 * Evaluation of Logistic Regression using Accuracy, Precision, Recall, F1-Score, ROC-AUC, and the Confusion Matrix.
 * Actionable business recommendations based on the model's findings.
 
----
-
-# Future Improvements
+## Future Improvements
 
 Potential enhancements to this project include:
 
@@ -137,4 +122,3 @@ Potential enhancements to this project include:
 * Address potential class imbalance using resampling techniques such as SMOTE.
 * Deploy the trained model as an interactive web application.
 * Build a customer churn prediction dashboard integrating machine learning outputs with business intelligence visualisations.
-
